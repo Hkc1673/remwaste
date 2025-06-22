@@ -5,6 +5,7 @@ import { SelectSkip } from "./SelectSkip";
 import { Loading } from "./Loading";
 import { SkipCard } from "./SkipCard";
 import { SkipModal } from "./SkipModal";
+import { Modal } from "./Modal";
 
 export {
     StepIndicator,
@@ -13,5 +14,6 @@ export {
     SelectSkip,
     Loading,
     SkipCard,
-    SkipModal
+    SkipModal,
+    Modal
 }

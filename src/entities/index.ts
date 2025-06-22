@@ -1,3 +1,5 @@
+import type { ReactNode } from "react";
+
 export type StepKey = '1' | '2' | '3' | '4' | '5' | '6';
 
 export interface IStepViewProps {
@@ -39,6 +41,12 @@ export interface ISkipModalProps {
     setIsModalOpen: (isOpen: boolean) => void;
     setIsVideoLoading: (isLoading: boolean) => void;
     isVideoLoading: boolean;
+}
+
+export interface IModalProps {
+    isOpen: boolean;
+    onClose: () => void;
+    children: ReactNode;
 }
 
 export interface ISkip {
